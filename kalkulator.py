@@ -1,6 +1,6 @@
-a=float(raw_input('podaj pierwsza liczbe '))
-b=float(raw_input('podaj druga liczbe '))
-znak=raw_input('podaj operacje ')
+a=float(input('podaj pierwsza liczbe '))
+b=float(input('podaj druga liczbe '))
+znak=input('podaj operacje ')
 
 if znak=='+':
     print(a+b)
